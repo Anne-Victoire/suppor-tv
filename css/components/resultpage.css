@@ -1,0 +1,128 @@
+.container1 img{
+	border-radius: 12px;
+	width: 643px;
+	height: 235px;
+	top: 810px;
+	Left: 108px;
+	Radius: 12px;
+	Blend:  pass through;
+	margin: 5px
+}
+
+a {
+  text-decoration: none;
+  color: #4059AD;
+  font-weight: bold;
+  padding: 0px 40px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+.container1 a:hover {
+color: #FFEBBF;
+}
+
+.map img{
+position: absolute;
+width: 515px;
+height: 620px;
+left: 720px;
+top: 15px;
+}
+
+.pub img{
+position: absolute;
+width: 515px;
+height: 370px;
+left: 720px;
+top: 685px;
+ }
+
+.btn-green {
+	background-color:#048434 ;
+	padding: 4px 30px;
+	border-radius: 9px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+}
+
+h2 {
+position: absolute;
+width: 786px;
+height: 48px;
+left: 10px;
+top: 1100px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 48px;
+color: #048434;
+}
+
+#tennis {
+position: absolute;
+width: 375px;
+height: 190px;
+left: 10px;
+top: 1210px;
+
+background: url(.jpg), url(.jpg);
+border-radius: 12px;
+}
+#escrime {
+position: absolute;
+width: 372px;
+height: 190px;
+left: 431px;
+top: 1210px;
+
+background: url(.jpg), url(.jpg);
+border-radius: 12px;
+}
+#natation{
+position: absolute;
+width: 374px;
+height: 190px;
+left: 845px;
+top: 1210px;
+
+background: url(.png);
+border-radius: 12px;
+}
+
+.container2 a {
+ font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+display: inline;
+
+color: #FFFFFF;
+
+background: #F9AB05;
+border-radius: 9px;
+}
+
+.btn-orange1 {
+position: absolute;
+width: 123px;
+height: 26px;
+left: 102px;
+top: 1300px;
+}
+.btn-orange2 {
+position: absolute;
+width: 123px;
+height: 26px;
+left: 527px;
+top: 1300px;}
+
+.btn-orange3 {
+position: absolute;
+width: 123px;
+height: 26px;
+left: 937px;
+top: 1300px;}
