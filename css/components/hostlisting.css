@@ -1,0 +1,132 @@
+#fond {
+width: 1772px;
+height: 1884px;
+left: -224px;
+top: 600px;
+}
+
+#julien{
+position: absolute;
+width: 187px;
+height: 239px;
+left: 600px;
+top: 500px;
+
+background: url(.png);
+border-radius: 20px;
+}
+
+.txt1{
+position: absolute;
+width: 314px;
+height: 57px;
+left: 900px;
+top: 500px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#salon{
+position: absolute;
+width: 583px;
+height: 345px;
+left: 650px;
+top: 816px;
+
+background: url(.png);
+border-radius: 33px;
+}
+
+#etoile{
+position: absolute;
+width: 35px;
+height: 31px;
+left: 650px;
+top: 1191px;
+
+background: url(.png);
+}
+.txt2{
+position: absolute;
+width: 155px;
+height: 48px;
+left: 690px;
+top: 1185px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.txt3{
+	position: absolute;
+width: 583px;
+height: 205px;
+left: 629px;
+top: 1261px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.container3 a{
+position: absolute;
+width: 200px;
+height: 30px;
+left: 840px;
+top: 1550px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+background: #F9AB05;
+border-radius: 9px;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  body {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  body {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  body {
+    width: 300px;
+  }
+}
