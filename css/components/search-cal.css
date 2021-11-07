@@ -1,29 +1,30 @@
-.search-bar body {
+.search-cal body {
   background-color: white;
 }
 
 
-.search-bar .header {
+
+
+.search-cal .header {
   height: 100vh;
-  background-image: linear-
-  gradientrgba(0,0,0,0.5),rgba(0,0,0,0.5),url(foot.png)
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
-  border-radius: 9px;
 }
 
 
-.search-bar h1 {
+.search-cal h1 {
   color: black;
   margin-bottom: 70px;
   font-size: 45px;
   letter-spacing: 2px;
   text-align: center;
 }
+
+
 
 .search-field {
   height: 20px;
@@ -33,6 +34,8 @@
   outline: none;
   margin-right: 10px;
 }
+
+
 
 .What {
   width: 230px;
@@ -47,6 +50,10 @@
 }
 
 
+.arrow{
+  margin-left: 20px;
+}
+
 .search-btn {
   height: 40px;
   width: 170px;
@@ -57,33 +64,27 @@
   font-size: 15px;
 }
 
+
+
 .search-btn:hover{
   background: #ffc107;
   cursor: pointer;
 
 }
 
-.form-box {
+.form-box{
   background: #048434;
   padding: 10px;
   border-radius: 10px;
 }
 
-@media (max-width: 900px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 800px;
-  }
+
+.search-cal .img {
+  margin-top: 30px;
+  border-radius: 4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
-}
+
+
