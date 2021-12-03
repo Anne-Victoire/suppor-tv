@@ -23,7 +23,7 @@
   height: 100%;
 }
 
-.card2 {
+.carddroite {
   display: flex;
   flex-direction: column;
   border-radius: 12px;
@@ -40,17 +40,17 @@
   width: 24px;
   height: 24px;
   position: relative;
-  left: 500px;
-  bottom: 220px;
+  margin-left: 460px;
+  bottom: 230px; 
 }
-a {
+.btn-green {
   width: 119.44px;
   height: 38px;
   position: relative;
   left: 510px;
   bottom: 50px;
 }
-a {
+.btn-green {
   text-decoration: none;
   color: #4059ad;
   font-weight: bold;
@@ -72,15 +72,13 @@ a:hover {
   width: 570px;
   height: 405px;
   padding-top: 20px;
-  margin-top: 200px;
+  margin-top: -15px;
 }
 
 h2 {
-  position: absolute;
+  position: relative;
   width: 786px;
   height: 48px;
-  left: 20px;
-  top: 1100px;
 
   font-family: Lato;
   font-style: normal;
@@ -114,68 +112,17 @@ h2 {
   display: inline;
   width: 500px;
   color: #ffffff;
+  text-align: left;
 
   background: #f9ab05;
   border-radius: 9px;
 }
 .btn-orange {
+  display: inline;
   position: relative;
   width: 500px;
   height: 26px;
-  position: relative;
   left: -250px;
   bottom: -80px;
-}
-@media (max-width: 960px) {
-  .result__location{
-    width: 700px;
-  }
-  .result__map{
-    width: 700px;
-  }
-  .result{
-    width: 700px;
-  }
-  .replay{
-    width: 700px;
-  }
-  .sport{
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .result__location{
-    width: 500px;
-  }
-  .result__map{
-    width: 500px;
-  }
-  .result{
-    width: 500px;
-  }
-  .replay{
-    width: 500px;
-  }
-  .sport{
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .result__location{
-    width: 300px;
-  }
-  .result__map{
-    width: 300px;
-  }
-  .result{
-    width: 300px;
-  }
-  .replay{
-    width: 300px;
-  }
-  .sport{
-    width: 300px;
-  }
+  text-align: left;
 }

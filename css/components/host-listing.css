@@ -1,4 +1,4 @@
-body{
+.fondunique{
     background-image: url("../../images/fond.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,7 +42,8 @@ body{
     line-height: 43,3px;
     display: flex;
     align-items: center;
-  
+    position: relative;
+    margin-bottom: 100px;
     color: #ffffff;
   }
 .container2{
@@ -126,6 +127,6 @@ body{
   }
 .bouton3{
     position: relative;
-    top: 100px;
-    left: -260px;
+    margin-top: 100px;
+    margin-left: 270px;
   }
