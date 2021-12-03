@@ -13,9 +13,10 @@
 @import url("components/search-bar.css");
 @import url("components/search-cal.css");
 @import url("components/banner-orange.css");
-@import url("components/searchbtn.css");
 @import url("components/info.css");
 @import url("components/result.css");
+@import url("components/host-profile.css");
+@import url("components/host-listing.css");
 
 body {
   font-family: "Lato", sans-serif;

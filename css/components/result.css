@@ -1,4 +1,5 @@
 .result {
+  margin-left: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -10,7 +11,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1rem solid green;
   width: 50%;
   height: 100%;
 }
@@ -19,7 +19,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border: 1rem solid blue;
   width: 50%;
   height: 100%;
 }
@@ -35,7 +34,7 @@
   width: 647px;
   height: 235px;
   padding: 5px;
-  border-radius: 12px;
+  border-radius: 14px;
 }
 .etoilevide {
   width: 24px;
@@ -72,13 +71,15 @@ a:hover {
 .pub {
   width: 570px;
   height: 405px;
+  padding-top: 20px;
+  margin-top: 200px;
 }
 
 h2 {
   position: absolute;
   width: 786px;
   height: 48px;
-  left: 10px;
+  left: 20px;
   top: 1100px;
 
   font-family: Lato;
@@ -93,37 +94,88 @@ h2 {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  border: 1rem solid orange;
   width: 100%;
   height: max-content;
-  margin-left: 20px;
+  margin-left: 60px;
   margin-top: 100px;
 }
+
 .sport {
   width: 375px;
   height: 190px;
   border-radius: 12px;
 }
-
 .btn-orange {
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 30px;
   display: inline;
-  width: 200px;
+  width: 500px;
   color: #ffffff;
 
   background: #f9ab05;
   border-radius: 9px;
 }
-
 .btn-orange {
   position: relative;
-  width: 200px;
+  width: 500px;
   height: 26px;
   position: relative;
   left: -250px;
   bottom: -80px;
+}
+@media (max-width: 960px) {
+  .result__location{
+    width: 700px;
+  }
+  .result__map{
+    width: 700px;
+  }
+  .result{
+    width: 700px;
+  }
+  .replay{
+    width: 700px;
+  }
+  .sport{
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .result__location{
+    width: 500px;
+  }
+  .result__map{
+    width: 500px;
+  }
+  .result{
+    width: 500px;
+  }
+  .replay{
+    width: 500px;
+  }
+  .sport{
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .result__location{
+    width: 300px;
+  }
+  .result__map{
+    width: 300px;
+  }
+  .result{
+    width: 300px;
+  }
+  .replay{
+    width: 300px;
+  }
+  .sport{
+    width: 300px;
+  }
 }
